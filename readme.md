@@ -39,3 +39,18 @@ Find and print the city with the highest average temperature.
 Hint:
 research on np.mean and have a look at the axis prameter
 research the np.argmax
+
+# Exercise 4: Broadcasting
+
+Task 6:
+Research about broadcasting in numpy
+Problem:
+You have been given a NumPy array representing the distances of different runners in a race, and another NumPy array representing their average speeds. The distance array contains the distances covered by each runner, and the speed array contains the average speeds of the runners. Perform the following tasks:
+Calculate the total time taken by each runner to complete the race (time = distance / speed).
+Find the runner(s) with the shortest total time.
+Here's the data:
+import numpy as np
+
+distances = np.array([800, 1500, 1000, 1200])
+average_speeds = np.array([5, 4, 6, 5.5])
+Hint: used broadcasting to perform element-wise division
